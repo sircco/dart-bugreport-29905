@@ -6,7 +6,7 @@ import 'package:dragula/dragula.dart';
 import 'package:mustache4dart/mustache4dart.dart' as mustache;
 
 void main() {
-	// var drakke;
+	var drakke;
         print(mustache.render("{{a}}", {'a':'a'}));
 	querySelector('#output').text = 'Your Dart app is running.';
 
